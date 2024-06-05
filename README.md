@@ -1,27 +1,26 @@
 # Interview Task - Next.js To-Do List with Flask Backend and SQLAlchemy
 
 ## Overview
-This repository contains an interview task aimed at assessing skills in Docker, Next.js, Flask, and SQLAlchemy development. The task involves completing Docker setup for both frontend and backend, developing a simple to-do list application using Next.js and Flask, and integrating SQLAlchemy for a SQLite database connection.
+This repository contains an interview task aimed at assessing skills, Next.js, Flask, SQLAlchemy and in Docker development. The task involves developing a simple To-Do List application using Next.js for the frontend and Flask for the backend. The backend will use SQLAlchemy to connect to a SQLite database for persisting tasks.
+Optionally, the task also involves Dockerizing the application for both frontend and backend.
 
 ## Task Description
 
-### 1. Dockerize the Frontend (Next.js)
-- Complete the Dockerfile in the `frontend/` directory to ensure the Next.js app can be built and run in a Docker container.
-
-### 2. Dockerize the Backend (Flask)
-- Complete the Dockerfile in the `backend/` directory for the Flask app to be containerized.
-
-### 3. Develop a Simple To-Do List Application
+### 1. Develop a Simple To-Do List Application
 - **Frontend (Next.js):**
   - Create an interface for task management (add, view, delete).
   - Implement communication with the backend API.
 - **Backend (Flask):**
   - Develop a REST API for CRUD operations on tasks.
-  - Use SQLAlchemy to connect to a SQLite database for persisting tasks.
+  - Use `SQLAlchemy` to connect to a SQLite database for persisting tasks.
 
-### 4. Integrate SQLAlchemy with SQLite
-- Set up SQLAlchemy in the Flask application for database operations.
-- Ensure tasks are stored and retrieved from a SQLite database.
+### 2. (Optional) Dockerize the Application
+The task also involves Dockerizing the application for both frontend and backend. We have already set up the docker compose file to run the application. You need to complete the Dockerfiles for both frontend and backend to ensure the application can be run in a Docker container.
+- **Frontend (Next.js):**
+  Complete the Dockerfile in the `frontend/` directory to ensure the Next.js app can be built and run in a Docker container.
+- **Backend (Flask):**
+  Complete the Dockerfile in the `backend/` directory for the Flask app to be containerized.
+
 
 ## Getting Started
 
